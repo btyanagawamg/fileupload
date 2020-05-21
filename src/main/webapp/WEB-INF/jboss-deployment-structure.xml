@@ -13,6 +13,7 @@
         <exclude-subsystems>
             <subsystem name="jaxrs" /><!-- (7) -->
             <subsystem name="jpa" /><!-- (8) -->
+            <subsystem name="logging" />
         </exclude-subsystems>
     </deployment>
 </jboss-deployment-structure>
