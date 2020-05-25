@@ -2,9 +2,6 @@ package todo.app.welcome;
 
 import java.io.Serializable;
 
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
-
 import org.springframework.web.multipart.MultipartFile;
 
 public class FileUploadWithoutValidationForm implements Serializable {
@@ -12,8 +9,6 @@ public class FileUploadWithoutValidationForm implements Serializable {
 
 	private MultipartFile file;
 
-    @NotNull
-    @Size(min = 0, max = 100)
     private String description;
 
     public MultipartFile getFile() {
